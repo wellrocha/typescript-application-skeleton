@@ -1,0 +1,29 @@
+{
+  "name": "typescript-application-skeleton",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "repository": "git@github.com:wellrocha/typescript-application-skeleton.git",
+  "author": "Wellington Rocha <wellrocha@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
+    "eslint": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  }
+}
