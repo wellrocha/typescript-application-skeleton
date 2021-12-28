@@ -20,5 +20,7 @@
         "@typescript-eslint",
         "jest"
     ],
-    "rules": {}
+    "rules": {
+        "@typescript-eslint/space-before-function-paren": "off"
+    }
 }
