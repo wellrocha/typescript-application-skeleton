@@ -28,5 +28,5 @@ app.use((err: HttpException, _req: Request, res: Response, _next: NextFunction) 
 
 const port = 8080
 app.listen(port, () => {
-  logger.info(`Example app listening at http://localhost:${port}`)
+  logger.info(`App listening at http://localhost:${port}`)
 })
